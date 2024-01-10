@@ -1,0 +1,83 @@
+:root {
+  --primary-color: rgb(255, 170, 0);
+  --secondary-color: white;
+}
+body {
+  background-image: url("images/construction-site-silhouettes.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.logo {
+  max-width: 200px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 200px;
+  margin-left: 150px;
+  font-weight: bolder;
+}
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+.Company-desc {
+  padding: 0px;
+  text-align: center;
+  color: var(--secondary-color);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+}
+
+.btn {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: xx-large;
+}
+
+.btn:hover {
+  color: var(--primary-color);
+}
+.img-fluid {
+  width: 70%;
+}
+footer {
+  margin: 80px;
+}
+footer .email-link {
+  text-decoration: none;
+  font-size: 40px;
+  color: var(--secondary-color);
+  text-align: center;
+  font-weight: bold;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+footer .social-links a {
+  margin: 0 40px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 20px;
+  font-size: 24px 18px;
+  border-radius: 70%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
